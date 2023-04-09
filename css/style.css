@@ -1,7 +1,7 @@
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-    font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 :root {
@@ -14,24 +14,24 @@ a {
 }
 
 a[rel="button"] {
-    background-color: var(--color02);
-    display: inline-block;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    padding: 10px 25px;
-    color: #fff !important;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+  background-color: var(--color02);
+  display: inline-block;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  padding: 10px 25px;
+  color: #fff !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 a[rel="button"]:hover {
-    background-color: var(--color01);
+  background-color: var(--color01);
 }
 
 /* Start NavBar */
@@ -54,7 +54,7 @@ header a {
 }
 
 header a:hover {
-    color: var(--color02);
+  color: var(--color02);
 }
 
 header .d-flex {
@@ -83,33 +83,32 @@ header .logo {
 }
 
 #navbar li a::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    bottom: 0;
-    background-color: var(--color02);
-    left: 0;
-    transition: 0.3s ease-in-out;
-    -webkit-transition: 0.3s ease-in-out;
-    -moz-transition: 0.3s ease-in-out;
-    -ms-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
-    transform: scale(0);
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -ms-transform: scale(0);
-    -o-transform: scale(0);
-    transform-origin: left;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  background-color: var(--color02);
+  left: 0;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform-origin: left;
 }
 
-#navbar li a:hover::after{
-    transform: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -ms-transform: none;
-    -o-transform: none;
-
+#navbar li a:hover::after {
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
 }
 
 #navbar li:not(:last-child) a {
@@ -184,62 +183,125 @@ header .logo {
 }
 
 #contactBtn a:hover {
-    background-color: var(--color02);
-    color: #fff;
+  background-color: var(--color02);
+  color: #fff;
 }
 
 /* End NavBar */
 
-
 /* Start Intro */
 
 .intro {
-    background-image: url(../images/bg.png);
-    background-repeat: no-repeat;
-    background-position: right 15px;
-    min-height: 860px;
-    padding-top: 270px;
-    background-size: contain;
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: right 15px;
+  min-height: 860px;
+  padding-top: 270px;
+  background-size: contain;
 }
 
 .intro img {
-    max-width: 500px;
-    position: relative;
-    right: -90px;
-    margin-left: auto;
-    display: block;
+  max-width: 500px;
+  position: relative;
+  right: -90px;
+  margin-left: auto;
+  display: block;
 }
 
 .intro .contant {
-  padding-right:130px ;
+  padding-right: 130px;
 }
 
-.intro .contant h2{
-    font-weight: 600;
-    font-size: 46px;
-    color: var(--color01);
-    margin-bottom: 30px;
+.intro .contant h2 {
+  font-weight: 600;
+  font-size: 46px;
+  color: var(--color01);
+  margin-bottom: 30px;
 }
 
-.intro .contant p{
-    margin-bottom: 30px;
-    font-size: 14px;
-    padding-right: 110px;
+.intro .contant p {
+  margin-bottom: 30px;
+  font-size: 14px;
+  padding-right: 110px;
 }
 
 .intro .contant a {
-    margin-right: 15px;
-    color: var(--color01);
-    font-weight: bold;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+  margin-right: 15px;
+  color: var(--color01);
+  font-weight: bold;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .intro .contant a:hover {
-    color: var(--color02);
+  color: var(--color02);
 }
 
 /* End Intro */
+
+/* Start Section-01 */
+.section-01 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-01::before {
+  content: '';
+  background-image: url(../images/Shape.png);
+  position: absolute;
+  height: 960px;
+  width: 278px;
+  z-index: -1;
+  left: 0;
+  top: 643px;
+  background-repeat: no-repeat;
+}
+
+.section-01 .head h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--color01);
+  margin: 0;
+  width: 300px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.section-01 .item {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px 0px rgba(25, 45, 51, 0.15);
+  padding: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: var(--color01);
+}
+
+.section-01 .item figure {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 31px;
+}
+
+.section-01 .item figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.section-01 .item h5 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+
+/* End Section-01 */
