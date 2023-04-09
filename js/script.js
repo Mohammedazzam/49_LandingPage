@@ -6,12 +6,24 @@ linkDrop.addEventListener("click", function (e) {
 });
 
 // Swiper
-const swiper = new Swiper(".swiper", {
+const Section02swiper = new Swiper(".section-02 .swiper", {
   // Optional parameters
   loop: true,
   // Navigation arrows
   navigation: {
-    nextEl: ".button-next",
-    prevEl: ".button-prev",
+    nextEl: "section-02 .button-next",
+    prevEl: "section-02 .button-prev",
   },
 });
+
+
+// Swiper
+const Section03swiper = new Swiper(".section-03 .swiper", {
+    // Optional parameters
+    loop: true,
+    // Navigation arrows
+    navigation: {
+      nextEl: "section-03 .button-next",
+      prevEl: "section-03 .button-prev",
+    },
+  });
