@@ -246,6 +246,7 @@ header .logo {
 .section-01 {
   padding-top: 100px;
   padding-bottom: 100px;
+  position: relative;
 }
 
 .section-01::before {
@@ -256,7 +257,19 @@ header .logo {
   width: 278px;
   z-index: -1;
   left: 0;
-  top: 643px;
+  top: -60px;
+  background-repeat: no-repeat;
+}
+
+.section-01::after {
+  content: '';
+  background-image: url(../images/Shape2.png);
+  position: absolute;
+  height: 859px;
+  width: 337px;
+  z-index: -1;
+  right: 0;
+  bottom: -770px;
   background-repeat: no-repeat;
 }
 
