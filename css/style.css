@@ -79,6 +79,19 @@ a.text-danger:hover {
   color: var(--color01) !important;
 }
 
+
+.head-block {
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.head-block h3 {
+  width: 310px;
+  font-weight: 600;
+  color: var(--color01);
+  font-size: 36px;
+}
+
 /* Start NavBar */
 header {
   padding: 60px 0;
@@ -418,18 +431,6 @@ header .logo {
   background-size: contain;
 }
 
-.section-03 .head-block {
-  margin-bottom: 50px;
-  align-items: center;
-}
-
-.section-03 .head-block h3 {
-  width: 310px;
-  font-weight: 600;
-  color: var(--color01);
-  font-size: 36px;
-}
-
 .section-03 .item {
   margin-bottom: 30px;
   height: 290px;
@@ -442,3 +443,55 @@ header .logo {
 }
 
 /* End Section-03 */
+
+/* Start Section-04 */
+
+.section-04 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.section-04::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  background-image: url(../images/Bg.Shape3.png);
+  width: 418px;
+  height: 667px;
+  top: 170px;
+}
+
+.section-04 .item {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px 0px rgba(25, 45, 51, 0.15);
+  margin: 10px;
+  padding: 60px 35px;
+  color: var(--color01);
+  font-size: 19px;
+  position: relative;
+}
+
+.section-04 .item a {
+  display: block;
+  color: var(--color01);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.section-04 .item span.date {
+  color: #6e757a;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.section-04 .item p ~ a {
+  position: absolute;
+  margin: 0;
+  right: 40px;
+  bottom: 17px;
+  color: var(--color02);
+  font-size: 24px;
+}
+
+/* End Section-04 */
